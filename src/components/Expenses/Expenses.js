@@ -13,8 +13,9 @@ const Expenses = (props) => {
 
   return (
     <div>
-      <ExpensesFilter onHandleFilter={handleFilter} />
+      
       <Card className="expenses">
+      <ExpensesFilter onHandleFilter={handleFilter} />
         <ExpenseItem
           title={props.items[0].title}
           amount={props.items[0].amount}
