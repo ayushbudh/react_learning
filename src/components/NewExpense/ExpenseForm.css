@@ -1,4 +1,4 @@
-.new-expense__controls {
+ .new-expense__controls {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -24,4 +24,11 @@
   .new-expense__actions {
     text-align: right;
   }
+
+  .new-expense__action_btn{
+    text-align: center;
+  }
   
+  new-expense__actions_left{
+    text-align: left;
+  }
